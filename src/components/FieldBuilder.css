@@ -1,0 +1,82 @@
+.container {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        border-radius: 5px;
+        border-color: cornflowerblue;
+        background-color: #ffffff;
+    }
+
+.choice-error {
+    background-color: rgba(255, 0, 0, 0.2); /* light red background */
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+}
+.field-builder {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.required-indicator {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+
+.field-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.field-input,
+.field-textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.field-textarea {
+    resize: vertical;
+}
+
+.button-save {
+    padding: 8px 16px;
+    background: green;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.button-cancel {
+    padding: 8px 16px;
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    .field-builder {
+        padding: 10px;
+        box-shadow: none;
+    }
+}
